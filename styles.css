@@ -1,0 +1,146 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/1500x990_px_fantasy_Art_sky-738938.jpg) no-repeat fixed center;
+    background-size: cover;
+    border: white;
+}
+
+h1 {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+img {
+    padding: 0;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    opacity: .40;
+}
+
+.div2 {
+    width: 400px;
+    border: 1px solid white;
+    background-color: rgba(88, 83, 83, 0.566);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px 1px black;
+}
+
+p {
+    color: white;
+}
+
+@media (max-width: 580px) {
+        
+        body {
+            background: url(images/1500x990_px_fantasy_Art_sky-738938.jpg) no-repeat fixed center;
+            background-size: cover;
+            border: white;
+        }
+        
+        h1 {
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+        }
+    
+        img {
+            padding: 0;
+            margin-top: 50px;
+            width: 500px;
+            height: 500px;
+            box-shadow: 2px 2px 4px gray;
+        }
+        
+        .div1 {
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+            padding: 0;
+            margin: 0;
+        }
+        
+        a:hover {
+            opacity: .40;
+        }
+        
+        .div2 {
+            width: 400px;
+            border: 1px solid white;
+            background-color: rgba(88, 83, 83, 0.566);
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 35px;
+            text-shadow: 1px 1px 1px black;
+        }
+}
+
+@media (min-width: 581px) and (max-width: 868px) {
+        
+        body {
+            background: url(images/1500x990_px_fantasy_Art_sky-738938.jpg) no-repeat fixed center;
+            background-size: cover;
+            border: white;
+        }
+
+        h1 {
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            font-size: 50px;
+        }
+
+        img {
+            padding: 0;
+            margin-top: 50px;
+            width: 500px;
+            height: 500px;
+            box-shadow: 2px 2px 4px gray;
+        }
+        
+        .div1 {
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+            padding: 0;
+            margin: 0;
+        }
+        
+
+        a:hover {
+            opacity: .40;
+        }
+
+        .div2 {
+            width: 400px;
+            border: 1px solid white;
+            background-color: rgba(88, 83, 83, 0.566);
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 35px;
+            text-shadow: 1px 1px 1px black;
+        }
+}
